@@ -13,6 +13,8 @@ class Time:
         self.minute = minute
         self.second = second
 
+
+
     def format_time(self):
         """Return time object (t) as a formatted string"""
         return f'{self.hour:02d}:{self.minute:02d}:{self.second:02d}'
