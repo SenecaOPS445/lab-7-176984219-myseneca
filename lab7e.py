@@ -16,14 +16,16 @@ class Time:
     def __str__(self):
         '''return a string representation for the object self'''
         return  f'{self.hour:02d}:{self.minute:02d}:{self.second:02d}'
+    
+    def __repr__(self):
+        '''return a string representation for the object self'''
+        '''just instead of ':', you are required use the '.'  in the formatting string.'''
 
     def format_time(self):
         """Return time object (t) as a formatted string"""
         return f'{self.hour:02d}:{self.minute:02d}:{self.second:02d}'
 
-    def __repr__(self):
-        '''return a string representation for the object self'''
-        '''just instead of ':', you are required use the '.'  in the formatting string.'''
+    
     def sum_times(self, t2):
         """Add two time objests and return the sum."""
         self_sec = self.time_to_sec()
