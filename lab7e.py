@@ -20,7 +20,7 @@ class Time:
     def __repr__(self):
         '''return a string representation for the object self'''
         '''just instead of ':', you are required use the '.'  in the formatting string.'''
-
+        return f'{self.hour:02d}.{self.minute:02d}.{self.second:02d}'
     def format_time(self):
         """Return time object (t) as a formatted string"""
         return f'{self.hour:02d}:{self.minute:02d}:{self.second:02d}'
