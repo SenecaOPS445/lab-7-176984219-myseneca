@@ -1,0 +1,5 @@
+print() in main on schoolName: Seneca
+print() in function1 on schoolName: SICT
+print() in main on schoolName: SICT
+print() in function2 on schoolName: SSDO
+print() in main on schoolName: SSDO
